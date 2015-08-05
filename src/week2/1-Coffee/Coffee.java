@@ -31,14 +31,9 @@ public class Coffee {
 	System.out.println(notSoGood);
 	System.out.println(bad);
 	System.out.println(theWorst);
-	
-	
-
 	}
 
 	public String toString(){
 		return brand + ": "+ price;
 	}
-
-
 }
