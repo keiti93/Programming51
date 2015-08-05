@@ -59,9 +59,9 @@ public class Binary {
 			for (int i=0; i< numbers.length; i++){
 				if (numbers[i] == '1'){
 					count++;
-				}}
-			return count == 1;
+				}
 				
-			
-		}
+			}
+		return count == 1;
+	}
 }
