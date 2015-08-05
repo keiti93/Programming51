@@ -16,12 +16,6 @@ public class MaxTypeValue {
 				System.out.println("Int's MAX value is: " + (n-1));
 				break;
 			}
-		
-	
-			}
-
 		}
-
-	
-
+	}
 }
