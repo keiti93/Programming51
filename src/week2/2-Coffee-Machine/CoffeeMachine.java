@@ -55,7 +55,5 @@ public static void main(String[] args) {
 	System.out.println(cm);
 	System.out.println(cm.buyCoffee(latte,(double) 3.40));
 	System.out.println("Current balance: " + cm.balance);
-
-}
-
+	}
 }
