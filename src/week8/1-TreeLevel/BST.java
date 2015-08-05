@@ -69,6 +69,21 @@ public class BST <T extends Comparable<T>> {
 		root = null;
 	}
 	
+		public void printLevel(int level) {
+		printLevelRecursive(level, root, 1);
+	}
+
+	private void printLevelRecursive(int level, Node<T> root, int counter) {
+		if (root == null) {
+			return;
+		}
+		if (level == counter) {
+			System.out.print(root.data + " ");
+		} else {
+			printLevelRecursive(level, root.left, counter + 1);
+			printLevelRecursive(level, root.right, counter + 1);
+		}
+	}
 	
 	public void balance(){
 		LinkedList<T> l = toList();
