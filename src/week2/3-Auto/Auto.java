@@ -27,4 +27,6 @@ public Auto (){};
 
 public String toString(){
 	return brand + " " + name +", Max Speed: "+ maxSpeed + ", Price: "+
- price + ", Owner: " + owner;}}
+ price + ", Owner: " + owner;
+	}
+}
