@@ -47,7 +47,7 @@ public class FindThePanda {
 		}
 		return xy;
 	}
-	// пейспяхъ!!!
+	// With recursion:
 	// public static boolean solve( char[][] maze, int x, int y){
 	// if(x >= maze.length || x < 0 || y >= maze[0].length || y < 0 ||
 	// maze[x][y] == '#' || maze[x][y] == 'X') {
